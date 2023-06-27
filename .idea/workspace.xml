@@ -5,76 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc3aa52f-7e75-4f55-97f9-45f45436c3c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csci5410_pallavi_marni.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_11_379.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_kms_1_11_379.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_s3_1_11_379.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_jmespath_java_1_11_379.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_14_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_14_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_20_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_20_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_24_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_5_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_5_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_6_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__software_amazon_ion_ion_java_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/serviceAccountKey.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/src/main/java/com/example/container1/Container1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/src/main/java/com/example/container1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/src/main/java/com/example/container1/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/src/main/java/com/example/container1/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/src/main/java/com/example/container1/firebaseInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/container-1/src/test/java/com/example/container1/Container1ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/container-1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,15 +87,23 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RlAhqLo9DSzi9LcXMYO8Q47CY0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
@@ -106,6 +113,27 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\17827\Desktop\csci5410_pallavi_marni\Assignment_2" />
     </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Container1Application">
+    <configuration name="Container1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="container-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.container1.Container1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Container1ReplicaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="container-1_replica" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.container1_replica.Container1ReplicaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Container1Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
