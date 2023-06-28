@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88285252-c468-4e4d-865c-964296f92eb2" name="Changes" comment="" />
+    <list default="true" id="88285252-c468-4e4d-865c-964296f92eb2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/src/main/java/com/example/container1_replica/Container1ReplicaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/src/test/java/com/example/container1_replica/Container1ReplicaApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,10 +28,26 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Container3Application">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.Container1Application">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="container-3" />
       <method v="2">
@@ -58,9 +84,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Container1Application" />
         <item itemvalue="Spring Boot.Container3Application" />
         <item itemvalue="Spring Boot.Container2Application" />
-        <item itemvalue="Spring Boot.Container1Application" />
       </list>
     </recent_temporary>
   </component>

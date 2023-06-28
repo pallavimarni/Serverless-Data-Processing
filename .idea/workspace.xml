@@ -4,63 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3aa52f-7e75-4f55-97f9-45f45436c3c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/setupTests.js" beforeDir="false" />
+    <list default="true" id="3ecb6e38-b511-46bd-8635-ce0fd05cc0d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/src/main/java/com/example/container1_replica/Container1ReplicaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/src/test/java/com/example/container1_replica/Container1ReplicaApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,22 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/17827/Desktop/A2/Assignment2/container-3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/17827/Desktop/A2/Assignment2/container-3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\17827\Desktop\A2\Assignment2\container-3" />
@@ -145,5 +99,16 @@
     <option featureType="dependencySupport" implementationName="java:com.amazonaws:aws-java-sdk-core" />
     <option featureType="dependencySupport" implementationName="java:com.amazonaws:aws-java-sdk-s3" />
     <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
