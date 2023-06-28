@@ -9,14 +9,12 @@ const LoginPage = () => {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-
     const loginData = {
       email: email,
       password: password,
     };
 
-
-    fetch('http://localhost:6001/login', {
+    fetch('https://my-microservice-2-hxmcfzaihq-uc.a.run.app/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -25,13 +23,10 @@ const LoginPage = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-      
         console.log('Login successful:', data);
-      
-        navigate('/active-users'); 
+        navigate('/active-users', { state: { loggedInUser: email } });
       })
       .catch((error) => {
- 
         console.error('Error logging in:', error);
       });
   };

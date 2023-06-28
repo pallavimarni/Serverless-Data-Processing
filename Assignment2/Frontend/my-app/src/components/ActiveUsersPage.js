@@ -1,30 +1,22 @@
 import React, { useEffect, useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const ActiveUsersPage = () => {
   const [activeUsers, setActiveUsers] = useState([]);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const loggedInUser = location.state?.loggedInUser;
 
   useEffect(() => {
-    // Fetch the list of active users
-    fetch('http://localhost:6006/online')
-      .then((response) => response.json())
-      .then((data) => {
-        // Update the state with the list of active users
-        setActiveUsers(data);
-      })
-      .catch((error) => {
-        // Handle any errors that occurred during the API request
-        console.error('Error fetching active users:', error);
-      });
+    fetchActiveUsers();
   }, []);
 
   const handleLogout = (email) => {
-    // Create the logout request payload
     const logoutData = {
       email: email,
     };
 
-    // Send the logout request
-    fetch('http://localhost:6006/logout', {
+    fetch('https://my-microservice-3-hxmcfzaihq-uc.a.run.app/logout', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -33,19 +25,16 @@ const ActiveUsersPage = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-   
         console.log('Logout successful:', data);
-   
-        fetchActiveUsers();
+        navigate('/');
       })
       .catch((error) => {
-       
         console.error('Error logging out:', error);
       });
   };
 
   const fetchActiveUsers = () => {
-    fetch('http://localhost:6006/online')
+    fetch('https://my-microservice-3-hxmcfzaihq-uc.a.run.app/online')
       .then((response) => response.json())
       .then((data) => {
         setActiveUsers(data);
@@ -58,12 +47,12 @@ const ActiveUsersPage = () => {
   return (
     <div>
       <h1>Active Users Page</h1>
+      <h2>Hi, {loggedInUser} you are logged in</h2>
+      <button onClick={() => handleLogout(loggedInUser)}>Logout</button>
+      <h3>Here are other users who are online:</h3>
       <ul>
         {activeUsers.map((user) => (
-          <li key={user}>
-            {user}
-            <button onClick={() => handleLogout(user)}>Logout</button>
-          </li>
+          <li key={user}>{user}</li>
         ))}
       </ul>
     </div>

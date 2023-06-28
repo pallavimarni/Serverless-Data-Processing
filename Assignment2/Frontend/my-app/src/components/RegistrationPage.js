@@ -19,7 +19,7 @@ const RegistrationPage = () => {
       location: location,
     };
 
-    fetch('http://localhost:8080/reg', {
+    fetch('https://my-microservice-hxmcfzaihq-ue.a.run.app/reg', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
