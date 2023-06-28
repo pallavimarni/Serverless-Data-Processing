@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ecb6e38-b511-46bd-8635-ce0fd05cc0d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/src/main/java/com/example/container1_replica/Container1ReplicaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/container-1_replica/src/test/java/com/example/container1_replica/Container1ReplicaApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="3ecb6e38-b511-46bd-8635-ce0fd05cc0d4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88285252-c468-4e4d-865c-964296f92eb2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/src/main/java/com/example/container1_replica/Container1ReplicaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-1/container-1_replica/src/test/java/com/example/container1_replica/Container1ReplicaApplicationTests.java" beforeDir="false" />
+    <list default="true" id="88285252-c468-4e4d-865c-964296f92eb2" name="Changes" comment="fixes">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-2/container-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-2/target/classes/com/example/container2/Container2Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/container-2/target/classes/com/example/container2/Container2Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-2/target/classes/com/example/container2/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/container-2/target/classes/com/example/container2/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-2/target/classes/com/example/container2/LoginDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/container-2/target/classes/com/example/container2/LoginDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-2/target/classes/com/example/container2/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/container-2/target/classes/com/example/container2/LoginService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,18 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -42,6 +53,7 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/17827/Desktop/A2/Assignment2/container-2",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -100,5 +112,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
 </project>
