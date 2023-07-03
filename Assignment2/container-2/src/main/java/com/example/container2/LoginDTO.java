@@ -3,6 +3,12 @@ package com.example.container2;
 public class LoginDTO {
 
     private String email;
+
+    public LoginDTO(String email, String password) {
+        this.email = email;
+        this.password = password;
+    }
+
     private String password;
 
 

@@ -16,7 +16,8 @@ const ActiveUsersPage = () => {
       email: email,
     };
 
-    fetch('https://my-microservice-3-hxmcfzaihq-uc.a.run.app/logout', {
+      fetch(process.env.REACT_APP_LOGOUT_URL, {
+
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -34,7 +35,7 @@ const ActiveUsersPage = () => {
   };
 
   const fetchActiveUsers = () => {
-    fetch('https://my-microservice-3-hxmcfzaihq-uc.a.run.app/online')
+      fetch(process.env.REACT_APP_ACTIVE_USERS_URL)
       .then((response) => response.json())
       .then((data) => {
         setActiveUsers(data);

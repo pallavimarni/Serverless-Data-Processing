@@ -44,6 +44,11 @@ public class User {
 
     public User() {}
 
-
+    public User(String name, String email, String password, String location) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.location = location;
+    }
 }
 

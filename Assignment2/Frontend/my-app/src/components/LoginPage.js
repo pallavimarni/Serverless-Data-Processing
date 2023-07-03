@@ -14,7 +14,7 @@ const LoginPage = () => {
       password: password,
     };
 
-    fetch('https://my-microservice-2-hxmcfzaihq-uc.a.run.app/login', {
+    fetch(process.env.REACT_APP_LOGIN_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -1,25 +1,31 @@
 package com.example.container1;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.ExecutionException;
 
 
 @RestController
 @RequestMapping
+@CrossOrigin
 public class UserController {
 
     @Autowired
     UserService userService;
 
-@PostMapping("/reg")
-    public String saveUser (@RequestBody User user) throws ExecutionException, InterruptedException {
-
-    return userService.saveUser(user);
+    // Endpoint for registering a new user
+    @PostMapping("/reg")
+    public  ResponseEntity<String> saveUser (@RequestBody User user) {
+        try {
+            // Save the user using the userService
+            return ResponseEntity.ok(userService.saveUser(user).toString());
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
+    }
 }
 
-}
+

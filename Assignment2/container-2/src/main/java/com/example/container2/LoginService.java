@@ -17,30 +17,40 @@ public class LoginService {
     private static final String COLLECTION_NAME = "Reg";
     private static final String STATE_COLLECTION_NAME = "state";
 
-    public boolean validateLogin(LoginDTO loginDTO) throws ExecutionException, InterruptedException {
-        Firestore dbFirestore = FirestoreClient.getFirestore();
+    // Method for validating user login
+    public boolean validateLogin(LoginDTO loginDTO) {
+        try {
+            Firestore dbFirestore = FirestoreClient.getFirestore();
 
-        Query query = dbFirestore.collection(COLLECTION_NAME)
-                .whereEqualTo("email", loginDTO.getEmail())
-                .whereEqualTo("password", loginDTO.getPassword());
+            // Build the query to check email and password
+            Query query = dbFirestore.collection(COLLECTION_NAME)
+                    .whereEqualTo("email", loginDTO.getEmail())
+                    .whereEqualTo("password", loginDTO.getPassword());
 
-        ApiFuture<QuerySnapshot> querySnapshotApiFuture = query.get();
+            // Execute the query and retrieve the results
+            ApiFuture<QuerySnapshot> querySnapshotApiFuture = query.get();
+            QuerySnapshot querySnapshot = querySnapshotApiFuture.get();
+            List<QueryDocumentSnapshot> documents = querySnapshot.getDocuments();
 
+            if (!documents.isEmpty()) {
+                // Login is successful
+                String userId = documents.get(0).getId();
 
-        QuerySnapshot querySnapshot = querySnapshotApiFuture.get();
-        List<QueryDocumentSnapshot> documents = querySnapshot.getDocuments();
+                // Update the user's state to "online" in the "state" collection
+                dbFirestore.collection(STATE_COLLECTION_NAME)
+                        .document(userId)
+                        .update("state", "online");
 
-        if (!documents.isEmpty()) {
-
-            String userId = documents.get(0).getId();
-
-
-            dbFirestore.collection(STATE_COLLECTION_NAME)
-                    .document(userId)
-                    .update("state", "online");
-
-            return true;
-        } else {
+                return true;
+            } else {
+                // Login failed
+                return false;
+            }
+        } catch (InterruptedException | ExecutionException e) {
+            e.printStackTrace();
+            return false;
+        } catch (Exception e) {
+            e.printStackTrace();
             return false;
         }
     }

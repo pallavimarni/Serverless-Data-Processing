@@ -1,7 +1,5 @@
 package com.example.container3;
 
-
-
 import com.google.api.core.ApiFuture;
 import com.google.cloud.firestore.*;
 import com.google.firebase.cloud.FirestoreClient;
@@ -14,39 +12,38 @@ import java.util.concurrent.ExecutionException;
 @Service
 public class stateService {
 
+    private static final String STATE_COLLECTION_NAME = "state";
 
-        private static final String STATE_COLLECTION_NAME = "state";
+    public List<String> getOnlineUsers() throws ExecutionException, InterruptedException {
+        Firestore dbFirestore = FirestoreClient.getFirestore();
 
-        public List<String> getOnlineUsers() throws ExecutionException, InterruptedException {
-            Firestore dbFirestore = FirestoreClient.getFirestore();
+        // Build the query to retrieve online users
+        Query query = dbFirestore.collection(STATE_COLLECTION_NAME)
+                .whereEqualTo("state", "online");
 
+        // Execute the query and retrieve the results
+        ApiFuture<QuerySnapshot> querySnapshotApiFuture = query.get();
+        QuerySnapshot querySnapshot = querySnapshotApiFuture.get();
+        List<QueryDocumentSnapshot> documents = querySnapshot.getDocuments();
 
-            Query query = dbFirestore.collection(STATE_COLLECTION_NAME)
-                    .whereEqualTo("state", "online");
-
-            ApiFuture<QuerySnapshot> querySnapshotApiFuture = query.get();
-
-
-            QuerySnapshot querySnapshot = querySnapshotApiFuture.get();
-            List<QueryDocumentSnapshot> documents = querySnapshot.getDocuments();
-
-            List<String> onlineUsers = new ArrayList<>();
-            for (QueryDocumentSnapshot document : documents) {
-                String email = document.getId();
-                onlineUsers.add(email);
-            }
-
-            return onlineUsers;
+        List<String> onlineUsers = new ArrayList<>();
+        for (QueryDocumentSnapshot document : documents) {
+            String email = document.getId();
+            onlineUsers.add(email);
         }
 
-        public void updateStateToOffline(String email) throws ExecutionException, InterruptedException {
-            Firestore dbFirestore = FirestoreClient.getFirestore();
-
-
-            dbFirestore.collection(STATE_COLLECTION_NAME)
-                    .document(email)
-                    .update("state", "offline");
-        }
+        return onlineUsers;
     }
 
 
+    public Boolean updateStateToOffline(String email) throws ExecutionException, InterruptedException {
+        Firestore dbFirestore = FirestoreClient.getFirestore();
+
+        // Update the state of the user to "offline" in the "state" collection
+        dbFirestore.collection(STATE_COLLECTION_NAME)
+                .document(email)
+                .update("state", "offline");
+
+        return true;
+    }
+}

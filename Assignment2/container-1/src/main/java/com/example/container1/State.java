@@ -2,15 +2,15 @@ package com.example.container1;
 
 public class State {
     private String email;
-    private String status;
+    private String state;
     private long timestamp;
 
     public State() {
     }
 
-    public State(String email, String status, long timestamp) {
+    public State(String email, String state, long timestamp) {
         this.email = email;
-        this.status = status;
+        this.state = state;
         this.timestamp = timestamp;
     }
 
@@ -23,12 +23,12 @@ public class State {
         this.email = email;
     }
 
-    public String getStatus() {
-        return status;
+    public String getState() {
+        return state;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setState(String state) {
+        this.state = state;
     }
 
     public long getTimestamp() {
