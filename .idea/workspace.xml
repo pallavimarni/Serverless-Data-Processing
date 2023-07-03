@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ecb6e38-b511-46bd-8635-ce0fd05cc0d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/main/java/com/example/container1/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/container-1/src/main/java/com/example/container1/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-1/src/main/java/com/example/container1/firebaseInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/container-1/src/main/java/com/example/container1/firebaseInitialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/main/java/com/example/container2/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/container-2/src/main/java/com/example/container2/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/src/main/java/com/example/container2/firebaseInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/container-2/src/main/java/com/example/container2/firebaseInitialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/target/classes/com/example/container2/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/container-2/target/classes/com/example/container2/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/target/classes/com/example/container2/LoginDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/container-2/target/classes/com/example/container2/LoginDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/target/classes/com/example/container2/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/container-2/target/classes/com/example/container2/LoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-2/target/classes/com/example/container2/firebaseInitialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/container-2/target/classes/com/example/container2/firebaseInitialization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/main/java/com/example/container3/firebaseInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/container-3/src/main/java/com/example/container3/firebaseInitialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/container-3/src/main/java/com/example/container3/stateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/container-3/src/main/java/com/example/container3/stateService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +42,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/17827/Desktop/Assignment",
+    "last_opened_file_path": "C:/Users/17827/Desktop/Serverless/A3/Assignment2/container-2",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -62,10 +52,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\17827\Desktop\Serverless\A3\Assignment2\container-2" />
+      <recent name="C:\Users\17827\Desktop\Serverless\A3\Assignment2\container-1" />
       <recent name="C:\Users\17827\Desktop\A2\Assignment2\container-3" />
       <recent name="C:\Users\17827\Desktop\A2\Assignment2\container-2" />
       <recent name="C:\Users\17827\Desktop\A2\Assignment2\container-1\src\main\java\com\example\container1" />
-      <recent name="C:\Users\17827\Desktop\A2\Assignment2\container-1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\17827\Desktop\Serverless\A3\Assignment2\container-3\src\main\resources" />
