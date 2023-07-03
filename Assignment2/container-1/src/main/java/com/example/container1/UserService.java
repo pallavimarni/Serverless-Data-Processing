@@ -26,6 +26,12 @@ public class UserService {
         try {
             Firestore dbFirestore = FirestoreClient.getFirestore();
 
+/* Reference
+"Class DocumentReference (3.13.2) | Java client library," Google Cloud. [Online].
+Available: https://cloud.google.com/java/docs/reference/google-cloudfirestore/latest/com.google.cloud.firestore.DocumentReference
+[Accessed 02 July 2023].
+*/
+
             // Save the user document in the "Reg" collection
             ApiFuture<WriteResult> collectionApiFuture = dbFirestore.collection(COLLECTION_NAME)
                     .document(user.getEmail())

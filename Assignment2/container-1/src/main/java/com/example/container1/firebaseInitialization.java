@@ -15,6 +15,15 @@ import java.io.InputStream;
 @Service
 public class firebaseInitialization {
 
+
+/* Reference :
+
+M. Ligade, "Spring Boot Firebase CRUD," techwasti, Nov. 28, 2020 [Online].
+Available: https://medium.com/techwasti/spring-boot-firebase-crud-b0afab27b26e
+[Accessed 02 July 2023].
+
+*/
+
     @PostConstruct
     public void initialisation() throws IOException {
         InputStream serviceAccount = null;

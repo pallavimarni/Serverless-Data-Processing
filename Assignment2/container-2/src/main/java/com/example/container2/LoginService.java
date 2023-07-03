@@ -27,6 +27,12 @@ public class LoginService {
                     .whereEqualTo("email", loginDTO.getEmail())
                     .whereEqualTo("password", loginDTO.getPassword());
 
+/* Reference:
+"Class DocumentReference (3.13.2) | Java client library," Google Cloud. [Online].
+Available: https://cloud.google.com/java/docs/reference/google-cloudfirestore/latest/com.google.cloud.firestore.DocumentReference
+[Accessed 02 July 2023].
+*/
+
             // Execute the query and retrieve the results
             ApiFuture<QuerySnapshot> querySnapshotApiFuture = query.get();
             QuerySnapshot querySnapshot = querySnapshotApiFuture.get();
